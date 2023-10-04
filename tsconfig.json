@@ -22,7 +22,11 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "/opt/business-logic": ["src/layers/business-logic/logic"],
+    }
   },
   "exclude": [
     "node_modules",
